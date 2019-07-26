@@ -1,0 +1,21 @@
+https://github.com/HerbyW/Perlan2
+
+https://perlanproject.org/aircraft
+
+Crew	2
+Cabin Pressure	8.5 PSID
+Empty Weight	1500 lbs
+Gross Weight	2000 lbs
+Wing Span	84 ft
+Wing Area	263 sq ft
+Aspect Ratio	27
+Wing Incidence	1.5 °
+Horiz. Tail Incidence	-0.5 °
+
+
+https://airwaysmag.com/wp-content/uploads/2017/09/AirbusPerlan1b.jpg
+https://www.airlineratings.com/wp-content/uploads/uploads/perlanII.jpg
+https://www.aeroshop.eu/en/lx-9000.html
+https://gliding.lxnav.com/products/lx9000/docs/
+https://public-media.smithsonianmag.com/filer/05/c5/05c56e91-3442-469b-9a1f-c00e700d980d/07b_jj2016_cockpitspread_e5c2634_live.jpg
+https://www.wingborn.com/lofty-ambitions/

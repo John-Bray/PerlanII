@@ -1,0 +1,83 @@
+A
+1000
+ACF_SOUNDS
+
+REQUIRES_BANK Master Bank.bank
+
+# Cockpit sound space bounding box
+# Default CG at 2.93
+
+BEGIN_SOUND_SPACE
+	SOUND_INDEX 0
+	BLEND_DEPTH 0.0
+	AABB -0.4 -0.5 -2.93 0.4 0.5 0
+END_SOUND_SPACE
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Cockpit
+	VEH_PART cockpit 0
+	EVENT_START_COND sim/flightmodel/position/indicated_airspeed > 0.1
+	EVENT_END_COND sim/flightmodel/position/indicated_airspeed < 0.1
+END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Airbrake_Open
+#	VEH_PART cockpit 0
+#	EVENT_START_COND sim/flightmodel2/controls/speedbrake_ratio < 0.03
+#	EVENT_START_COND DELTA=sim/flightmodel2/controls/speedbrake_ratio > 0.01
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Airbrake_Close
+#	VEH_PART cockpit 0
+#	EVENT_START_COND sim/flightmodel2/controls/speedbrake_ratio < 0.03
+#	EVENT_START_COND DELTA=sim/flightmodel2/controls/speedbrake_ratio < -0.01
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Tow_Hook_Open
+#	VEH_XYZ -0.25 0 -1.92
+#	EVENT_CMND_DOWN sim/flight_controls/glider_all_release
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Tow_Cable_Release
+#	VEH_PART cockpit 0
+#	EVENT_START_COND DELTA=sim/flightmodel2/misc/tow_in_progress < 0
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Wheel_Spin
+#	VEH_XYZ 0 -0.44 0.3
+#	EVENT_START_COND DELTA=sim/flightmodel2/gear/on_ground[0] < 0
+#	EVENT_END_COND DELTA=sim/flightmodel2/gear/on_ground[0] > 0
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Wheel_Spin_Loop
+#	VEH_PART tire 0
+#	EVENT_START_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[0] > 1
+#	EVENT_START_COND sim/flightmodel2/gear/on_ground[0] == 1
+#	EVENT_END_COND DELTA=sim/flightmodel2/gear/on_ground[0] < 0
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /Creak
+#	VEH_PART cockpit 0
+#	EVENT_START_COND sim/flightmodel/position/alpha < -70
+#	EVENT_START_COND sim/flightmodel/position/alpha > -110
+#	EVENT_START_COND sim/flightmodel2/misc/gforce_normal < 0
+#	EVENT_START_COND sim/flightmodel2/misc/gforce_normal > -0.1
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /G_Force
+#	VEH_PART cockpit 0
+#	EVENT_START_COND sim/flightmodel/forces/g_nrml < -3
+#END_SOUND_ATTACHMENT
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /G_Force1
+#	VEH_PART cockpit 0
+#	EVENT_START_COND sim/flightmodel/forces/g_nrml < -4
+#END_SOUND_ATTACHMENT

@@ -174,7 +174,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 3723.068603516
-P _gear/1/_stat_def 0.496889174
+P _gear/1/_stat_def 0.496889234
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -208,7 +208,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 0.0
 P _gear/2/_scon 979.754943848
-P _gear/2/_stat_def 0.071714289
+P _gear/2/_stat_def 0.071714282
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.0
@@ -262,7 +262,29 @@ P _obja/2/_v10_att_y_acf_prt_ref 0.0
 P _obja/2/_v10_att_z_acf_prt_ref 0.0
 P _obja/2/_v10_is_internal 268496912
 P _obja/2/_v10_steers_with_gear 0
-P _obja/count 3
+P _obja/3/_obj_flags 0
+P _obja/3/_v10_att_file_stl PerlanII_panelCarbonFibre.obj
+P _obja/3/_v10_att_part -1
+P _obja/3/_v10_att_phi_ref 0.0
+P _obja/3/_v10_att_psi_ref 0.0
+P _obja/3/_v10_att_the_ref 0.0
+P _obja/3/_v10_att_x_acf_prt_ref 0.0
+P _obja/3/_v10_att_y_acf_prt_ref 0.0
+P _obja/3/_v10_att_z_acf_prt_ref 0.0
+P _obja/3/_v10_is_internal 268496912
+P _obja/3/_v10_steers_with_gear 0
+P _obja/4/_obj_flags 0
+P _obja/4/_v10_att_file_stl boxes.obj
+P _obja/4/_v10_att_part -1
+P _obja/4/_v10_att_phi_ref 0.0
+P _obja/4/_v10_att_psi_ref 0.0
+P _obja/4/_v10_att_the_ref 0.0
+P _obja/4/_v10_att_x_acf_prt_ref 0.0
+P _obja/4/_v10_att_y_acf_prt_ref 0.0
+P _obja/4/_v10_att_z_acf_prt_ref 0.0
+P _obja/4/_v10_is_internal 268496912
+P _obja/4/_v10_steers_with_gear 0
+P _obja/count 5
 P _panel_inst_3d 0
 P _part/10/_bot_s1 0.0
 P _part/10/_bot_s2 0.0
@@ -17881,7 +17903,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 0.0
 P _part/86/_part_x 0.0
-P _part/86/_part_y -0.717021644
+P _part/86/_part_y -0.717021585
 P _part/86/_part_z 9.350393295
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -19350,7 +19372,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x 0.0
-P _part/87/_part_y 0.038905893
+P _part/87/_part_y 0.038905885
 P _part/87/_part_z 29.429134369
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -27049,7 +27071,7 @@ P acf/_nom_bat_volt 13.800000191
 P acf/_nom_fuelP 30.0
 P acf/_nom_gen_volt 24.500000000
 P acf/_nom_oilP 115.0
-P acf/_notes 2019-07-26 B02
+P acf/_notes 2019-07-27 B03
 P acf/_num_batteries 1
 P acf/_num_braking_wheels 0.0
 P acf/_num_buses 1
@@ -27688,7 +27710,7 @@ PANEL_2D_BEGIN
 PANEL_2D_END
 PANEL_3D_BEGIN
 ins_tailnum ins_tailnum
-  POS 44.714294 -42.142822
+  POS 53.714294 180.857178
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
@@ -27697,7 +27719,7 @@ ins_tailnum ins_tailnum
   KEY_FRAME 1.000000 1.000000
 
 han_sbrake_manual han_sbrake_manual
-  POS 138.500000 -50.000000
+  POS 26.500000 -37.000000
   DATAREF 
   SIZE 0.800000
   LIGHT_MODE MECHANICAL
@@ -27705,14 +27727,14 @@ han_sbrake_manual han_sbrake_manual
   BUS_SRC 1
 
 but_battery but_battery
-  POS 206.000000 36.000000
+  POS 146.000000 -42.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 but_avionics but_avionics
-  POS 253.000000 -18.000000
+  POS 193.000000 -96.000000
   DATAREF 
   SIZE 0.900000
   LIGHT_MODE MECHANICAL
@@ -27720,7 +27742,7 @@ but_avionics but_avionics
   BUS_SRC 1
 
 but_brakes but_brakes
-  POS 588.000000 -54.500000
+  POS 49.000000 -91.500000
   DATAREF 
   SIZE 1.200000
   LIGHT_MODE MECHANICAL
@@ -27728,57 +27750,57 @@ but_brakes but_brakes
   BUS_SRC 1
 
 ins_slip_BC ins_slip_BC
-  POS 512.000000 414.000000
+  POS 191.285706 520.857056
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 compass_GA compass_GA
-  POS 645.000000 15.500000
+  POS 802.000000 364.500000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 rad_com1_GA rad_com1_GA
-  POS 506.000000 361.500000
+  POS 836.000000 136.500000
   DATAREF 
+  SIZE 1.600000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 ins_totalenergy_inc ins_totalenergy_inc
-  POS 513.000000 -38.000000
+  POS 811.000000 697.428467
   DATAREF 
-  SIZE 0.700000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 but_tot_ener_audio but_tot_ener_audio
-  POS 584.500000 16.500000
+  POS 48.500000 42.500000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 ins_atmo_temp_dig atmo_temp_digital.p
-  POS 696.000000 140.000000
+  POS 496.000000 644.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 oxygen_qty oxygen_qty.png
-  POS 860.000000 -16.928598
+  POS 507.000000 569.071411
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 mach_lin Mach_linear.png
-  POS 426.500000 14.500000
+  POS 223.500000 59.500000
   DATAREF 
   SIZE 0.600000
   LIGHT_MODE MECHANICAL
@@ -27786,7 +27808,7 @@ mach_lin Mach_linear.png
   BUS_SRC 1
 
 but_chute but_chute.png
-  POS 441.500000 367.500000
+  POS 491.500000 321.500000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
@@ -27794,7 +27816,7 @@ but_chute but_chute.png
   TOOLTIP Tail Chute
 
 but_jettison but_jettison.png
-  POS 575.500000 367.500000
+  POS 575.500000 321.500000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
@@ -27802,7 +27824,7 @@ but_jettison but_jettison.png
   TOOLTIP Main Chute (non Functional)
 
 but_bea_light but_beacon.png
-  POS 288.000000 -18.000000
+  POS 228.000000 -96.000000
   DATAREF 
   SIZE 0.900000
   LIGHT_MODE MECHANICAL
@@ -27810,7 +27832,7 @@ but_bea_light but_beacon.png
   BUS_SRC 1
 
 but_nav_light but_nav_light.png
-  POS 323.000000 -18.000000
+  POS 263.000000 -96.000000
   DATAREF 
   SIZE 0.900000
   LIGHT_MODE MECHANICAL
@@ -27818,15 +27840,14 @@ but_nav_light but_nav_light.png
   BUS_SRC 1
 
 vvi2k_HM VVI_2000_HM.png
-  POS 284.285706 62.285713
+  POS 658.285706 697.285767
   DATAREF 
-  SIZE 0.700000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 ins_ice_pitot_heat pitot_heat.png
-  POS 185.285736 -18.000000
+  POS 125.285736 -96.000000
   DATAREF 
   SIZE 0.900000
   LIGHT_MODE MECHANICAL
@@ -27834,7 +27855,7 @@ ins_ice_pitot_heat pitot_heat.png
   BUS_SRC 1
 
 ins_ice_window_heat windshield_heat.png
-  POS 219.285736 -18.000000
+  POS 159.285736 -96.000000
   DATAREF 
   SIZE 0.900000
   LIGHT_MODE MECHANICAL
@@ -27842,64 +27863,57 @@ ins_ice_window_heat windshield_heat.png
   BUS_SRC 1
 
 rad_transponder_GA transponder_GA.png
-  POS 920.428467 -100.857147
+  POS 96.428467 141.142853
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 but_yawdamp but_yawdamp.png
-  POS 423.571442 -59.857140
+  POS 76.571442 -39.857140
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 ail_trim_ind ail_trim_ind.png
-  POS 950.000000 -46.500000
+  POS 111.000000 61.500000
   DATAREF 
   SIZE 0.900000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
-press_combo cabin_combo.png
-  POS 756.000000 74.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  BUS_SRC 1
-
 press_cabin_alt_set set_cabin_alt.png
-  POS 763.000000 -17.000000
+  POS 496.000000 717.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 ann_low_voltage ann_low_voltage.png
-  POS 196.500000 -56.000000
+  POS 136.500000 -134.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 ann_pitot_heat_off ann_pitot_heat.png
-  POS 196.500000 -74.000000
+  POS 136.500000 -152.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 elv_trim_ind elv_trim_ind.png
-  POS 367.000000 16.000000
+  POS 164.000000 61.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
 
 def_elev_lin def_ELEV_lin.png
-  POS 396.000000 9.000000
+  POS 193.000000 54.000000
   DATAREF 
   SIZE 0.700000
   LIGHT_MODE MECHANICAL
@@ -27907,70 +27921,72 @@ def_elev_lin def_ELEV_lin.png
   BUS_SRC 1
 
 EFIS_camera ----==++-==--
-  POS 513.000000 -157.000000
+  POS 514.000000 14.000000
   DATAREF 
-  SIZE 0.850000
+  SIZE 2.400000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_screen_3_GA blank_Large_GA.png
-  POS 512.000000 193.000000
+  POS 203.000000 520.285706
   DATAREF 
-  SIZE 0.800000
+  SIZE 1.750000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_horizon el_horizon.png
-  POS 512.000000 259.285706
+  POS 197.000000 652.285706
   DATAREF 
+  SIZE 1.600000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_altitude el_altitude.png
-  POS 576.000000 270.000000
+  POS 316.000000 637.000000
   DATAREF 
-  SIZE 0.700000
+  SIZE 1.500000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_airspeed el_airspeed.png
-  POS 446.071442 264.571442
+  POS 106.071442 636.571411
   DATAREF 
-  SIZE 0.700000
+  SIZE 1.500000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_psi_disp el_heading.png
-  POS 576.357117 148.285721
+  POS 191.357117 556.285706
   DATAREF 
+  SIZE 2.000000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_wind el_wind.png
-  POS 452.000000 177.000000
+  POS 348.000000 492.000000
   DATAREF 
-  SIZE 0.800000
+  SIZE 1.400000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_map_s_BC map_s_BC.png
-  POS 512.000000 141.000000
+  POS 158.714294 361.285706
   DATAREF 
-  SIZE 0.500000
+  SIZE 1.300000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000

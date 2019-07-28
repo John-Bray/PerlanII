@@ -174,7 +174,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 3723.068603516
-P _gear/1/_stat_def 0.496889204
+P _gear/1/_stat_def 0.496889144
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -208,7 +208,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 0.0
 P _gear/2/_scon 979.754943848
-P _gear/2/_stat_def 0.071714267
+P _gear/2/_stat_def 0.071714282
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.0
@@ -17903,7 +17903,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 0.0
 P _part/86/_part_x 0.0
-P _part/86/_part_y -0.717021585
+P _part/86/_part_y -0.717021704
 P _part/86/_part_z 9.350393295
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -19372,7 +19372,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x 0.0
-P _part/87/_part_y 0.038905870
+P _part/87/_part_y 0.038905885
 P _part/87/_part_z 29.429134369
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -27071,7 +27071,7 @@ P acf/_nom_bat_volt 13.800000191
 P acf/_nom_fuelP 30.0
 P acf/_nom_gen_volt 24.500000000
 P acf/_nom_oilP 115.0
-P acf/_notes 2019-07-28 B04
+P acf/_notes 2019-07-28 B05
 P acf/_num_batteries 1
 P acf/_num_braking_wheels 0.0
 P acf/_num_buses 1
@@ -27575,7 +27575,7 @@ P acf/_vect_power_for 1.0
 P acf/_vect_rate 15.0
 P acf/_vectarmY 0.0
 P acf/_vectarmZ 0.0
-P acf/_version 1_0
+P acf/_version 1_0_B5
 P acf/_vvi_but_adjusts_pitch 0
 P acf/_warn_airliner 0
 P acf/_warn_alt_app_100 0
@@ -27750,7 +27750,7 @@ but_brakes but_brakes
   BUS_SRC 1
 
 ins_slip_BC ins_slip_BC
-  POS 191.285706 520.857056
+  POS 637.285706 717.857056
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
@@ -27765,7 +27765,7 @@ compass_GA compass_GA
   BUS_SRC 1
 
 ins_totalenergy_inc ins_totalenergy_inc
-  POS 805.000000 368.000000
+  POS 560.000000 368.000000
   DATAREF 
   SIZE 2.200000
   LIGHT_MODE MECHANICAL
@@ -27834,7 +27834,7 @@ but_nav_light but_nav_light.png
   BUS_SRC 1
 
 vvi2k_HM VVI_2000_HM.png
-  POS 560.000000 367.299988
+  POS 807.000000 368.000000
   DATAREF 
   SIZE 1.800000
   LIGHT_MODE MECHANICAL
@@ -27924,8 +27924,8 @@ EFIS_camera ----==++-==--
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
-EFIS_screen_3_GA blank_Large_GA.png
-  POS 203.000000 520.000000
+EFIS_horizon el_horizon.png
+  POS 213.000000 659.285706
   DATAREF 
   SIZE 1.750000
   LIGHT_MODE MECHANICAL
@@ -27933,17 +27933,8 @@ EFIS_screen_3_GA blank_Large_GA.png
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
-EFIS_horizon el_horizon.png
-  POS 197.000000 652.285706
-  DATAREF 
-  SIZE 1.600000
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 EFIS_altitude el_altitude.png
-  POS 316.000000 637.000000
+  POS 344.000000 657.000000
   DATAREF 
   SIZE 1.500000
   LIGHT_MODE MECHANICAL
@@ -27952,7 +27943,7 @@ EFIS_altitude el_altitude.png
   KEY_FRAME 1.000000 1.000000
 
 EFIS_airspeed el_airspeed.png
-  POS 106.000000 636.000000
+  POS 90.000000 657.000000
   DATAREF 
   SIZE 1.500000
   LIGHT_MODE MECHANICAL
@@ -27961,16 +27952,16 @@ EFIS_airspeed el_airspeed.png
   KEY_FRAME 1.000000 1.000000
 
 EFIS_psi_disp el_heading.png
-  POS 191.357117 556.285706
+  POS 383.357117 433.285706
   DATAREF 
-  SIZE 2.000000
+  SIZE 2.500000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
 EFIS_wind el_wind.png
-  POS 348.000000 492.000000
+  POS 384.000000 513.000000
   DATAREF 
   SIZE 1.400000
   LIGHT_MODE MECHANICAL
@@ -27979,9 +27970,36 @@ EFIS_wind el_wind.png
   KEY_FRAME 1.000000 1.000000
 
 EFIS_map_s_BC map_s_BC.png
-  POS 158.000000 361.000000
+  POS 172.000000 367.000000
   DATAREF 
-  SIZE 1.300000
+  SIZE 1.600000
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+but_map_zoom but_map_zoom.png
+  POS 379.000000 258.000000
+  DATAREF 
+  SIZE 1.400000
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+EFIS_map_mode but_map_options.png
+  POS 203.000000 559.000000
+  DATAREF 
+  SIZE 1.200000
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+but_map_mode_HSI but_map_mode_HSI.pn
+  POS 381.000000 318.000000
+  DATAREF 
+  SIZE 1.400000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000

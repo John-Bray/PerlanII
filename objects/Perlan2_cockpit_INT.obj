@@ -15699,7 +15699,9 @@ IDX 11428
 ATTR_no_cull
 ATTR_cockpit_region 0
 ATTR_manip_none
-TRIS 0 354
+TRIS 0 102
+ATTR_cockpit_region 0
+TRIS 102 252
 ATTR_cull
 ATTR_no_cockpit
 TRIS 354 12618
